@@ -17,7 +17,7 @@ The model is called a multi-task network because each of the three models in the
 The three models are not connected directly; instead, outputs of the previous stage are fed as input to the next stage. This allows additional processing to be performed between stages; for example, non-maximum suppression (NMS) is used to filter the candidate bounding boxes proposed by the first-stage P-Net prior to providing them to the second stage R-Net model.
 
 ### Benchmarking Results 
-The following tables shows the benchmark of this mtcnn implementation running on an Intel i7-3612QM CPU @ 2.10GHz, with a CPU-based Tensorflow 1.4.1.
+The following tables shows the benchmark of this mtcnn implementation running on an Intel i7-3612QM CPU @ 2.10GHz, with a CPU-based Tensorflow 1.4.1. [Ref. 4]
 
 #### Pictures containing single Face
 
